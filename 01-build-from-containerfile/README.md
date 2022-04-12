@@ -1,6 +1,7 @@
-# Deploy Using Container Image
+# Build using Containerfile
 
-Use OpenShift to deploy an existing container image:
+OpenShift can build and hosts containerized applications from source using a
+Dockerfile.
 
 ```bash
 $ oc new-project hello-world
