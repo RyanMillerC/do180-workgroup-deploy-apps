@@ -7,7 +7,7 @@ without needed an explicit Containerfile/Dockerfile.
 $ oc new-project hello-world
 $ oc new-app \
       --name hello-world \
-      --context-dir 02-build-with-s2i
+      --context-dir 02-build-with-s2i \
       https://github.com/RyanMillerC/do180-workgroup-deploy-apps
 $ oc get builds
 # Wait for build to complete
