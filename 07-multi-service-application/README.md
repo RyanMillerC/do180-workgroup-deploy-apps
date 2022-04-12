@@ -12,7 +12,7 @@ $ oc new-app \
 $ oc new-app \
       --name hello-world-frontend \
       --context-dir 07-multi-service-application/frontend \
-      --env BACKEND_SERVICE='http://hello-world-backend.hello-world.svc.cluster.local' \
+      --env BACKEND_SERVICE='http://hello-world-backend.hello-world.svc.cluster.local:8080' \
       https://github.com/RyanMillerC/do180-workgroup-deploy-apps
 $ oc get builds
 # Wait for build to complete
