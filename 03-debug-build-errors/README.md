@@ -6,7 +6,7 @@ Sometimes errors pop up in the build process in OpenShift. Try to debug this:
 $ oc new-project hello-world
 $ oc new-app \
       --name hello-world \
-      --context-dir 03-build-with-s2i-has-errors
+      --context-dir 03-debug-build-errors
       https://github.com/RyanMillerC/do180-workgroup-deploy-apps
 $ oc get builds
 # Debug build/app so that it returns hello world when curl'ed from outside the
